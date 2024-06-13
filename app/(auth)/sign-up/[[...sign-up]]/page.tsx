@@ -1,8 +1,7 @@
-import { SignUp } from "@clerk/nextjs"
+import { SignUp } from '@clerk/nextjs'
 
-function SignUpPage() {
-  return (<SignUp/>
-  )
+const SignUpPage = () => {
+  return <SignUp />
 }
 
 export default SignUpPage
